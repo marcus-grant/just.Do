@@ -16,6 +16,7 @@
 		00C04E411B56BB4100231E0E /* TaskListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C04E401B56BB4100231E0E /* TaskListViewController.m */; };
 		00C04E441B56BBBE00231E0E /* MGTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C04E431B56BBBE00231E0E /* MGTask.m */; };
 		00C04E491B56E3E900231E0E /* MGTaskList.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C04E481B56E3E900231E0E /* MGTaskList.m */; };
+		BCBC23B3DC10EC2D72B3590E /* libPods-just.do.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E1F7C3C9A4F22A35FC6B73 /* libPods-just.do.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,9 @@
 		00C04E431B56BBBE00231E0E /* MGTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGTask.m; sourceTree = "<group>"; };
 		00C04E471B56E3E900231E0E /* MGTaskList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGTaskList.h; sourceTree = "<group>"; };
 		00C04E481B56E3E900231E0E /* MGTaskList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGTaskList.m; sourceTree = "<group>"; };
+		0953580D2A4F29F55C509364 /* Pods-just.do.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-just.do.release.xcconfig"; path = "Pods/Target Support Files/Pods-just.do/Pods-just.do.release.xcconfig"; sourceTree = "<group>"; };
+		A84D2568031D690C4C01297E /* Pods-just.do.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-just.do.debug.xcconfig"; path = "Pods/Target Support Files/Pods-just.do/Pods-just.do.debug.xcconfig"; sourceTree = "<group>"; };
+		C2E1F7C3C9A4F22A35FC6B73 /* libPods-just.do.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-just.do.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCBC23B3DC10EC2D72B3590E /* libPods-just.do.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +78,8 @@
 				00105B1E1B3DD7DF0051D19A /* Supporting Files */,
 				00105B371B3DD7DF0051D19A /* just.doTests */,
 				00105B1C1B3DD7DF0051D19A /* Products */,
+				D862D3F75B3A9A7A9CD0D618 /* Pods */,
+				FB28F1D29C1164A8614DED1E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -146,6 +153,23 @@
 			name = Models;
 			sourceTree = "<group>";
 		};
+		D862D3F75B3A9A7A9CD0D618 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A84D2568031D690C4C01297E /* Pods-just.do.debug.xcconfig */,
+				0953580D2A4F29F55C509364 /* Pods-just.do.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FB28F1D29C1164A8614DED1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2E1F7C3C9A4F22A35FC6B73 /* libPods-just.do.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -153,9 +177,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00105B3E1B3DD7DF0051D19A /* Build configuration list for PBXNativeTarget "just.do" */;
 			buildPhases = (
+				32DACAC542D1E5EB1BE78482 /* Check Pods Manifest.lock */,
 				00105B171B3DD7DF0051D19A /* Sources */,
 				00105B181B3DD7DF0051D19A /* Frameworks */,
 				00105B191B3DD7DF0051D19A /* Resources */,
+				89A562FE110CB78D39EA822E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -240,6 +266,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32DACAC542D1E5EB1BE78482 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		89A562FE110CB78D39EA822E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-just.do/Pods-just.do-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		00105B171B3DD7DF0051D19A /* Sources */ = {
@@ -374,6 +433,7 @@
 		};
 		00105B3F1B3DD7DF0051D19A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A84D2568031D690C4C01297E /* Pods-just.do.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = just.do/Info.plist;
@@ -384,6 +444,7 @@
 		};
 		00105B401B3DD7DF0051D19A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0953580D2A4F29F55C509364 /* Pods-just.do.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = just.do/Info.plist;
