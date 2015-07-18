@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "MGTask.h"
 #import "MGTaskList.h"
+#import <MCSwipeTableViewCell.h>
 
 @interface TaskListViewController : UITableViewController
 
