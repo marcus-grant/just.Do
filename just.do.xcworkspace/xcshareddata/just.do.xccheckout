@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>942E6957-6883-4CDE-8850-F0C2B81010F4</string>
+	<string>1F4B4D26-6529-45B4-88D4-A6211145A414</string>
 	<key>IDESourceControlProjectName</key>
 	<string>just.do</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -14,11 +14,11 @@
 		<string>https://github.com/marcus-grant/just.Do.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>just.do.xcodeproj</string>
+	<string>just.do.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>F5B43177FC36EC50F54D1DC8714139661E21BC3B</key>
-		<string>../..</string>
+		<string>..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/marcus-grant/just.Do.git</string>

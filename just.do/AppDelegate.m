@@ -18,34 +18,34 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    NSLocale *usLocale = [[NSLocale alloc]initWithLocaleIdentifier:@"en_US"];
-    NSLocale *isoLocale = [[NSLocale alloc]initWithLocaleIdentifier:@"iso_std"];
-    NSDateFormatter *usDateFormatter = [[NSDateFormatter alloc]init];
-    NSDateFormatter *isoDateFormatter = [[NSDateFormatter alloc]init];
-    [usDateFormatter setDateFormat:@"MM/dd/yyyy HH:mm"];
-    [isoDateFormatter setDateFormat:@"yyyy-MM-dd HH:mm"];
-    
-
-    NSTimeInterval secondsPerDay    = 60 * 60 * 24;
-    NSDate *now, *tomorrow, *yesterday, *nextWeek;
-    now         = [[NSDate alloc]init];
-    tomorrow    = [now dateByAddingTimeInterval:secondsPerDay];
-    yesterday   = [now dateByAddingTimeInterval:-secondsPerDay];
-    nextWeek    = [now dateByAddingTimeInterval:secondsPerDay*7];
-    NSTimeInterval secondsSinceRef = [NSDate timeIntervalSinceReferenceDate];
-    //NSString *nowUSFormat = [NSDateFormatter localizedStringFromDate:now
-
-    NSLog(@"The number of seconds since Jan 1st 2001 is %f.2",secondsSinceRef);
-    NSLog(@"The date description for current time: %@",[now description]);
-    
-    NSDateComponents *components = [[NSDateComponents alloc] init];
-    [components setWeekday:2]; // Monday
-    [components setWeekdayOrdinal:1]; // The first Monday in the month
-    [components setMonth:8]; // May
-    [components setYear:2015];
-    NSCalendar *gregorian = [[NSCalendar alloc]
-                             initWithCalendarIdentifier:NSGregorianCalendar];
-    NSDate *date = [gregorian dateFromComponents:components];
+//    NSLocale *usLocale = [[NSLocale alloc]initWithLocaleIdentifier:@"en_US"];
+//    NSLocale *isoLocale = [[NSLocale alloc]initWithLocaleIdentifier:@"iso_std"];
+//    NSDateFormatter *usDateFormatter = [[NSDateFormatter alloc]init];
+//    NSDateFormatter *isoDateFormatter = [[NSDateFormatter alloc]init];
+//    [usDateFormatter setDateFormat:@"MM/dd/yyyy HH:mm"];
+//    [isoDateFormatter setDateFormat:@"yyyy-MM-dd HH:mm"];
+//    
+//
+//    NSTimeInterval secondsPerDay    = 60 * 60 * 24;
+//    NSDate *now, *tomorrow, *yesterday, *nextWeek;
+//    now         = [[NSDate alloc]init];
+//    tomorrow    = [now dateByAddingTimeInterval:secondsPerDay];
+//    yesterday   = [now dateByAddingTimeInterval:-secondsPerDay];
+//    nextWeek    = [now dateByAddingTimeInterval:secondsPerDay*7];
+//    NSTimeInterval secondsSinceRef = [NSDate timeIntervalSinceReferenceDate];
+//    //NSString *nowUSFormat = [NSDateFormatter localizedStringFromDate:now
+//
+//    NSLog(@"The number of seconds since Jan 1st 2001 is %f.2",secondsSinceRef);
+//    NSLog(@"The date description for current time: %@",[now description]);
+//    
+//    NSDateComponents *components = [[NSDateComponents alloc] init];
+//    [components setWeekday:2]; // Monday
+//    [components setWeekdayOrdinal:1]; // The first Monday in the month
+//    [components setMonth:8]; // May
+//    [components setYear:2015];
+//    NSCalendar *gregorian = [[NSCalendar alloc]
+//                             initWithCalendarIdentifier:NSGregorianCalendar];
+//    NSDate *date = [gregorian dateFromComponents:components];
     
     return YES;
 }

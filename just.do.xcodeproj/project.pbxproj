@@ -13,9 +13,15 @@
 		00105B2C1B3DD7DF0051D19A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00105B2B1B3DD7DF0051D19A /* Images.xcassets */; };
 		00105B2F1B3DD7DF0051D19A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00105B2D1B3DD7DF0051D19A /* LaunchScreen.xib */; };
 		00105B3B1B3DD7DF0051D19A /* just_doTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00105B3A1B3DD7DF0051D19A /* just_doTests.m */; };
+		00B41CA71B598A4400999B79 /* check_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 00B41CA21B598A4400999B79 /* check_icon.png */; };
+		00B41CA81B598A4400999B79 /* clock_check_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 00B41CA31B598A4400999B79 /* clock_check_icon.png */; };
+		00B41CA91B598A4400999B79 /* clock_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 00B41CA41B598A4400999B79 /* clock_icon.png */; };
+		00B41CAA1B598A4400999B79 /* garbage_bin_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 00B41CA51B598A4400999B79 /* garbage_bin_icon.png */; };
+		00B41CAB1B598A4400999B79 /* menu_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 00B41CA61B598A4400999B79 /* menu_icon.png */; };
 		00C04E411B56BB4100231E0E /* TaskListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C04E401B56BB4100231E0E /* TaskListViewController.m */; };
 		00C04E441B56BBBE00231E0E /* MGTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C04E431B56BBBE00231E0E /* MGTask.m */; };
 		00C04E491B56E3E900231E0E /* MGTaskList.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C04E481B56E3E900231E0E /* MGTaskList.m */; };
+		85D5B1A521975128A27D7C2B /* libPods-just.do.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A50093C6B3773A3ADD1D42 /* libPods-just.do.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,12 +46,20 @@
 		00105B341B3DD7DF0051D19A /* just.doTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = just.doTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00105B391B3DD7DF0051D19A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00105B3A1B3DD7DF0051D19A /* just_doTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = just_doTests.m; sourceTree = "<group>"; };
+		00B41CA21B598A4400999B79 /* check_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = check_icon.png; path = Icons/check_icon.png; sourceTree = "<group>"; };
+		00B41CA31B598A4400999B79 /* clock_check_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = clock_check_icon.png; path = Icons/clock_check_icon.png; sourceTree = "<group>"; };
+		00B41CA41B598A4400999B79 /* clock_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = clock_icon.png; path = Icons/clock_icon.png; sourceTree = "<group>"; };
+		00B41CA51B598A4400999B79 /* garbage_bin_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = garbage_bin_icon.png; path = Icons/garbage_bin_icon.png; sourceTree = "<group>"; };
+		00B41CA61B598A4400999B79 /* menu_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menu_icon.png; path = Icons/menu_icon.png; sourceTree = "<group>"; };
 		00C04E3F1B56BB4100231E0E /* TaskListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskListViewController.h; sourceTree = "<group>"; };
 		00C04E401B56BB4100231E0E /* TaskListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskListViewController.m; sourceTree = "<group>"; };
 		00C04E421B56BBBE00231E0E /* MGTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGTask.h; sourceTree = "<group>"; };
 		00C04E431B56BBBE00231E0E /* MGTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGTask.m; sourceTree = "<group>"; };
 		00C04E471B56E3E900231E0E /* MGTaskList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGTaskList.h; sourceTree = "<group>"; };
 		00C04E481B56E3E900231E0E /* MGTaskList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGTaskList.m; sourceTree = "<group>"; };
+		B3A50093C6B3773A3ADD1D42 /* libPods-just.do.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-just.do.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D327E19036E8468248DC1FB1 /* Pods-just.do.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-just.do.debug.xcconfig"; path = "Pods/Target Support Files/Pods-just.do/Pods-just.do.debug.xcconfig"; sourceTree = "<group>"; };
+		E04451902462312220C3D604 /* Pods-just.do.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-just.do.release.xcconfig"; path = "Pods/Target Support Files/Pods-just.do/Pods-just.do.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85D5B1A521975128A27D7C2B /* libPods-just.do.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +88,8 @@
 				00105B1E1B3DD7DF0051D19A /* Supporting Files */,
 				00105B371B3DD7DF0051D19A /* just.doTests */,
 				00105B1C1B3DD7DF0051D19A /* Products */,
+				D3A78C54AE77EF5B8FC0314E /* Pods */,
+				38574A7B037F0FA0BD5E3AEC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,6 +105,7 @@
 		00105B1D1B3DD7DF0051D19A /* just.do */ = {
 			isa = PBXGroup;
 			children = (
+				00105B2B1B3DD7DF0051D19A /* Images.xcassets */,
 				00105B221B3DD7DF0051D19A /* AppDelegate.h */,
 				00105B231B3DD7DF0051D19A /* AppDelegate.m */,
 				00105B2D1B3DD7DF0051D19A /* LaunchScreen.xib */,
@@ -101,6 +119,11 @@
 		00105B1E1B3DD7DF0051D19A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				00B41CA21B598A4400999B79 /* check_icon.png */,
+				00B41CA31B598A4400999B79 /* clock_check_icon.png */,
+				00B41CA41B598A4400999B79 /* clock_icon.png */,
+				00B41CA51B598A4400999B79 /* garbage_bin_icon.png */,
+				00B41CA61B598A4400999B79 /* menu_icon.png */,
 				00105B1F1B3DD7DF0051D19A /* Info.plist */,
 				00105B201B3DD7DF0051D19A /* main.m */,
 			);
@@ -141,9 +164,25 @@
 				00C04E431B56BBBE00231E0E /* MGTask.m */,
 				00C04E471B56E3E900231E0E /* MGTaskList.h */,
 				00C04E481B56E3E900231E0E /* MGTaskList.m */,
-				00105B2B1B3DD7DF0051D19A /* Images.xcassets */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		38574A7B037F0FA0BD5E3AEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3A50093C6B3773A3ADD1D42 /* libPods-just.do.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3A78C54AE77EF5B8FC0314E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D327E19036E8468248DC1FB1 /* Pods-just.do.debug.xcconfig */,
+				E04451902462312220C3D604 /* Pods-just.do.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,9 +192,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00105B3E1B3DD7DF0051D19A /* Build configuration list for PBXNativeTarget "just.do" */;
 			buildPhases = (
+				8F0B486D7C998B64C8FDB37F /* Check Pods Manifest.lock */,
 				00105B171B3DD7DF0051D19A /* Sources */,
 				00105B181B3DD7DF0051D19A /* Frameworks */,
 				00105B191B3DD7DF0051D19A /* Resources */,
+				EF56E6FF0F43793DBC691C96 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -227,8 +268,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				00105B2A1B3DD7DF0051D19A /* Main.storyboard in Resources */,
+				00B41CAA1B598A4400999B79 /* garbage_bin_icon.png in Resources */,
 				00105B2F1B3DD7DF0051D19A /* LaunchScreen.xib in Resources */,
 				00105B2C1B3DD7DF0051D19A /* Images.xcassets in Resources */,
+				00B41CA91B598A4400999B79 /* clock_icon.png in Resources */,
+				00B41CAB1B598A4400999B79 /* menu_icon.png in Resources */,
+				00B41CA81B598A4400999B79 /* clock_check_icon.png in Resources */,
+				00B41CA71B598A4400999B79 /* check_icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +286,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8F0B486D7C998B64C8FDB37F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EF56E6FF0F43793DBC691C96 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-just.do/Pods-just.do-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		00105B171B3DD7DF0051D19A /* Sources */ = {
@@ -374,6 +453,7 @@
 		};
 		00105B3F1B3DD7DF0051D19A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D327E19036E8468248DC1FB1 /* Pods-just.do.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = just.do/Info.plist;
@@ -384,6 +464,7 @@
 		};
 		00105B401B3DD7DF0051D19A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E04451902462312220C3D604 /* Pods-just.do.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = just.do/Info.plist;
