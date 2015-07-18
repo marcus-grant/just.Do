@@ -56,7 +56,8 @@
     MGTask *currentTask = self.testList.tasks[indexPath.row];
     
     cell.textLabel.text = currentTask.name;
-    
+    NSUInteger dayDue, monthDue;
+    cell.detailTextLabel.text = @"Due Date";
     return cell;
 }
 
