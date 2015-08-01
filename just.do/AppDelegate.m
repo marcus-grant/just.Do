@@ -20,11 +20,45 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
-    TaskListViewController *tableViewController = [[TaskListViewController alloc] initWithStyle:UITableViewCellStyleValue1];
+    MGTaskListViewController *tableViewController = [[MGTaskListViewController alloc] initWithStyle:UITableViewCellStyleValue1];
+
     UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:tableViewController];
+    
+    navigationController.navigationBar.titleTextAttributes = [NSDictionary dictionaryWithObjectsAndKeys:[UIColor whiteColor], NSForegroundColorAttributeName, nil];
+    
     [self.window setRootViewController:navigationController];
     
+    
+    //TODO: figure out these mechanics for version detection and document it
+    NSArray *ver = [[UIDevice currentDevice].systemVersion componentsSeparatedByString:@"."];
+    if ([[ver objectAtIndex:0] intValue] >= 7)
+    {
+        //bright orange color
+        UIColor *brightOrange = [UIColor colorWithRed:246.0/255.0
+                                                green:138.0/255.0
+                                                 blue:87.0/255.0
+                                                alpha:1];
+
+        
+        // iOS 7.0 or later
+        navigationController.navigationBar.barTintColor = brightOrange;
+        navigationController.navigationBar.translucent = NO;
+    }
+    else
+    {
+        // iOS 6.1 or earlier
+        navigationController.navigationBar.tintColor = [UIColor colorWithRed:246.0/255.0
+                                                                       green:138.0/255.0
+                                                                        blue:87.0/255.0
+                                                                       alpha:1];
+    }
+    
+    [tableViewController setTitle:@"Inbox"];
+
+    
+    
     self.window.backgroundColor = [UIColor whiteColor];
+    
     [self.window makeKeyAndVisible];
 
     

@@ -10,6 +10,8 @@
 	<string>just.do</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>78A25C8D0342D38CE9A264460334D39454468DB8</key>
+		<string>github.com:alikaragoz/MCSwipeTableViewCell.git</string>
 		<key>F5B43177FC36EC50F54D1DC8714139661E21BC3B</key>
 		<string>https://github.com/marcus-grant/just.Do.git</string>
 	</dict>
@@ -17,6 +19,8 @@
 	<string>just.do.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+		<key>78A25C8D0342D38CE9A264460334D39454468DB8</key>
+		<string>../../MCSwipeTableViewCell</string>
 		<key>F5B43177FC36EC50F54D1DC8714139661E21BC3B</key>
 		<string>..</string>
 	</dict>
@@ -35,6 +39,14 @@
 			<string>F5B43177FC36EC50F54D1DC8714139661E21BC3B</string>
 			<key>IDESourceControlWCCName</key>
 			<string>just.do</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>78A25C8D0342D38CE9A264460334D39454468DB8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MCSwipeTableViewCell</string>
 		</dict>
 	</array>
 </dict>

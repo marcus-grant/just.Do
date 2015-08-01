@@ -11,6 +11,6 @@
 #import "MGTaskList.h"
 #import <MCSwipeTableViewCell.h>
 
-@interface TaskListViewController : UITableViewController
+@interface MGTaskListViewController : UITableViewController
 
 @end

@@ -13,9 +13,14 @@
 		00105B2C1B3DD7DF0051D19A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00105B2B1B3DD7DF0051D19A /* Images.xcassets */; };
 		00105B2F1B3DD7DF0051D19A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00105B2D1B3DD7DF0051D19A /* LaunchScreen.xib */; };
 		00105B3B1B3DD7DF0051D19A /* just_doTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00105B3A1B3DD7DF0051D19A /* just_doTests.m */; };
-		00C04E411B56BB4100231E0E /* TaskListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C04E401B56BB4100231E0E /* TaskListViewController.m */; };
+		00B41CC21B5AFFC200999B79 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00B41CBF1B5AFFC200999B79 /* Default-568h@2x.png */; };
+		00B41CC31B5AFFC200999B79 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 00B41CC01B5AFFC200999B79 /* Default.png */; };
+		00B41CC41B5AFFC200999B79 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00B41CC11B5AFFC200999B79 /* Default@2x.png */; };
+		00B41CC61B5AFFD200999B79 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 00B41CC51B5AFFD200999B79 /* Images */; };
+		00C04E411B56BB4100231E0E /* MGTaskListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C04E401B56BB4100231E0E /* MGTaskListViewController.m */; };
 		00C04E441B56BBBE00231E0E /* MGTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C04E431B56BBBE00231E0E /* MGTask.m */; };
 		00C04E491B56E3E900231E0E /* MGTaskList.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C04E481B56E3E900231E0E /* MGTaskList.m */; };
+		00EF2D911B62C14500019D12 /* shia_just_do_it.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00EF2D901B62C14500019D12 /* shia_just_do_it.jpg */; };
 		3B9691F8F6C408EBEA63B8D8 /* libPods-just.do.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0B31C0D3901530455162DB3 /* libPods-just.do.a */; };
 /* End PBXBuildFile section */
 
@@ -41,12 +46,17 @@
 		00105B341B3DD7DF0051D19A /* just.doTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = just.doTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00105B391B3DD7DF0051D19A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00105B3A1B3DD7DF0051D19A /* just_doTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = just_doTests.m; sourceTree = "<group>"; };
-		00C04E3F1B56BB4100231E0E /* TaskListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskListViewController.h; sourceTree = "<group>"; };
-		00C04E401B56BB4100231E0E /* TaskListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskListViewController.m; sourceTree = "<group>"; };
+		00B41CBF1B5AFFC200999B79 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../../MCSwipeTableViewCell/MCSwipe Demo/MCSwipe Demo/Default-568h@2x.png"; sourceTree = "<group>"; };
+		00B41CC01B5AFFC200999B79 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = "../../MCSwipeTableViewCell/MCSwipe Demo/MCSwipe Demo/Default.png"; sourceTree = "<group>"; };
+		00B41CC11B5AFFC200999B79 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../../MCSwipeTableViewCell/MCSwipe Demo/MCSwipe Demo/Default@2x.png"; sourceTree = "<group>"; };
+		00B41CC51B5AFFD200999B79 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Images; path = "../../MCSwipeTableViewCell/MCSwipe Demo/MCSwipe Demo/Images"; sourceTree = "<group>"; };
+		00C04E3F1B56BB4100231E0E /* MGTaskListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGTaskListViewController.h; sourceTree = "<group>"; };
+		00C04E401B56BB4100231E0E /* MGTaskListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGTaskListViewController.m; sourceTree = "<group>"; };
 		00C04E421B56BBBE00231E0E /* MGTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGTask.h; sourceTree = "<group>"; };
 		00C04E431B56BBBE00231E0E /* MGTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGTask.m; sourceTree = "<group>"; };
 		00C04E471B56E3E900231E0E /* MGTaskList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGTaskList.h; sourceTree = "<group>"; };
 		00C04E481B56E3E900231E0E /* MGTaskList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGTaskList.m; sourceTree = "<group>"; };
+		00EF2D901B62C14500019D12 /* shia_just_do_it.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shia_just_do_it.jpg; sourceTree = "<group>"; };
 		845F4DC7D60E639CF698DAB8 /* Pods-just.do.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-just.do.debug.xcconfig"; path = "Pods/Target Support Files/Pods-just.do/Pods-just.do.debug.xcconfig"; sourceTree = "<group>"; };
 		B0B31C0D3901530455162DB3 /* libPods-just.do.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-just.do.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6F12811274C6A22AF044609 /* Pods-just.do.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-just.do.release.xcconfig"; path = "Pods/Target Support Files/Pods-just.do/Pods-just.do.release.xcconfig"; sourceTree = "<group>"; };
@@ -95,6 +105,7 @@
 		00105B1D1B3DD7DF0051D19A /* just.do */ = {
 			isa = PBXGroup;
 			children = (
+				00105B2B1B3DD7DF0051D19A /* Images.xcassets */,
 				00105B221B3DD7DF0051D19A /* AppDelegate.h */,
 				00105B231B3DD7DF0051D19A /* AppDelegate.m */,
 				00105B2D1B3DD7DF0051D19A /* LaunchScreen.xib */,
@@ -108,6 +119,11 @@
 		00105B1E1B3DD7DF0051D19A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				00EF2D901B62C14500019D12 /* shia_just_do_it.jpg */,
+				00B41CC51B5AFFD200999B79 /* Images */,
+				00B41CBF1B5AFFC200999B79 /* Default-568h@2x.png */,
+				00B41CC01B5AFFC200999B79 /* Default.png */,
+				00B41CC11B5AFFC200999B79 /* Default@2x.png */,
 				00105B1F1B3DD7DF0051D19A /* Info.plist */,
 				00105B201B3DD7DF0051D19A /* main.m */,
 			);
@@ -135,8 +151,8 @@
 		00C04E451B56E2BB00231E0E /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				00C04E3F1B56BB4100231E0E /* TaskListViewController.h */,
-				00C04E401B56BB4100231E0E /* TaskListViewController.m */,
+				00C04E3F1B56BB4100231E0E /* MGTaskListViewController.h */,
+				00C04E401B56BB4100231E0E /* MGTaskListViewController.m */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -148,7 +164,6 @@
 				00C04E431B56BBBE00231E0E /* MGTask.m */,
 				00C04E471B56E3E900231E0E /* MGTaskList.h */,
 				00C04E481B56E3E900231E0E /* MGTaskList.m */,
-				00105B2B1B3DD7DF0051D19A /* Images.xcassets */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -252,9 +267,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00B41CC41B5AFFC200999B79 /* Default@2x.png in Resources */,
 				00105B2A1B3DD7DF0051D19A /* Main.storyboard in Resources */,
+				00B41CC61B5AFFD200999B79 /* Images in Resources */,
+				00B41CC21B5AFFC200999B79 /* Default-568h@2x.png in Resources */,
 				00105B2F1B3DD7DF0051D19A /* LaunchScreen.xib in Resources */,
+				00EF2D911B62C14500019D12 /* shia_just_do_it.jpg in Resources */,
 				00105B2C1B3DD7DF0051D19A /* Images.xcassets in Resources */,
+				00B41CC31B5AFFC200999B79 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,7 +328,7 @@
 				00105B241B3DD7DF0051D19A /* AppDelegate.m in Sources */,
 				00105B211B3DD7DF0051D19A /* main.m in Sources */,
 				00C04E491B56E3E900231E0E /* MGTaskList.m in Sources */,
-				00C04E411B56BB4100231E0E /* TaskListViewController.m in Sources */,
+				00C04E411B56BB4100231E0E /* MGTaskListViewController.m in Sources */,
 				00C04E441B56BBBE00231E0E /* MGTask.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
