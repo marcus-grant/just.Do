@@ -29,7 +29,7 @@
 @property (strong, nonatomic)   NSDate      *dateCreated;
 @property (strong, nonatomic)   NSDate      *dateModified;
 @property (strong, nonatomic)   NSDate      *dateDue;
-@property (nonatomic)           NSDate      *dateComplete;
+@property (nonatomic)           BOOL        isComplete;
 
 -(instancetype)initWithName:(NSString *)name uID:(NSUInteger)uID dateDue:(NSDate *)dateDue;
 -(instancetype)init;
@@ -38,7 +38,7 @@
 
 -(NSDictionary *)dictionaryFromTask;
 
--(NSString *)getCompleteDueDateString;
+-(NSString *)completeDueDateString;
 
 
 @end

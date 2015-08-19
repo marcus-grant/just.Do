@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "NSDate+MGMethods.h"
+#import "MGCoreDataManager.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    
+    [self runTests];
+    
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
@@ -60,6 +66,8 @@
     self.window.backgroundColor = [UIColor whiteColor];
     
     [self.window makeKeyAndVisible];
+    
+    
 
     
 //      Playing with time and date objects
@@ -116,5 +124,31 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+//TODO: Cleanup Delegate Tests
+-(void)runTests
+{
+    
+    //Core Data Manager Tests
+    MGCoreDataManager *dataManager = [MGCoreDataManager sharedInstance];
+    NSManagedObjectContext *context = [dataManager managedObjectContext];
+    
+    
+    
+//    NSDate *today = [NSDate now];
+//    NSDate *tomorrow = [NSDate tomorrow];
+//    NSDate *yesterday = [NSDate yesterday];
+//    NSLog(@"today is:%@",today);
+//    NSLog(@"tomorrow is:%@",tomorrow);
+//    NSLog(@"yesterday was:%@",yesterday);
+//    NSDate *todayWithAlittle = [today dateByAddingTimeInterval:3600.0];
+//    BOOL isItTomorrow = [[todayWithAlittle dateByAddingDays:1] isTomorrow];
+//    NSLog(@"today+1hr isTomorrow = %@",isItTomorrow ? @"YES" : @"NO");
+//    NSLog(@"today is %@ before yesterday", [today isBefore:yesterday] ? @"" : @"not");
+//    NSLog(@"Today is: %@",[today dayOfWeekString]);
+//    NSLog(@"Today is (short date): %@",[today shortDateOnlyStringWithLocale:@"en_us"]);
+//    NSLog(@"The time is (short time): %@",[today shortTimeStringWithMilitaryTime:NO]);
+    
+}
+
 
 @end

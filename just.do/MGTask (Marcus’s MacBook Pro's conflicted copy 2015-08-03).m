@@ -29,6 +29,7 @@
         _dateDue        = dateDue;
         _dateCreated    = [[NSDate alloc]init];
         _dateModified   = [[NSDate alloc]init];
+        _isComplete     = NO;
         
     }
     return self;
@@ -45,6 +46,7 @@
         _dateDue        = nil;
         _dateCreated    = [[NSDate alloc]init];
         _dateModified   = [[NSDate alloc]init];
+        _isComplete     = NO;
         
     }
     return self;
@@ -65,7 +67,7 @@
 //        
 //        
 //    }
-    return nil;
+    return self;
 }
 
 //TODO: reduce variable and copy use so its all inline
@@ -84,7 +86,7 @@
 
 #pragma mark - date methods
 
--(NSString *)getCompleteDueDateString
+-(NSString *)completeDueDateString
 {
     NSMutableString *returnString;
     returnString = [[NSMutableString alloc]initWithString:[self dateStringFromDate:self.dateDue]];

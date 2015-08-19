@@ -20,11 +20,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "just.do/MGTaskListViewController.m"
-            timestampString = "460153122.426288"
+            timestampString = "460254710.032591"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "294"
-            endingLineNumber = "294"
+            startingLineNumber = "297"
+            endingLineNumber = "297"
             landmarkName = "-deleteCell:"
             landmarkType = "5">
             <Locations>

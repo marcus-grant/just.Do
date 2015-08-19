@@ -110,7 +110,7 @@
     cell.firstTrigger = 0.1;
     cell.secondTrigger = 0.6;
     cell.textLabel.text = currentTask.name;
-    cell.detailTextLabel.text = [currentTask getCompleteDueDateString];
+    cell.detailTextLabel.text = [currentTask completeDueDateString];
     
     return cell;
 }
@@ -202,7 +202,7 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return 64.0;
+    return 56.0;
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath

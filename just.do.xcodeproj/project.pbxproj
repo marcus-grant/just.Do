@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0002C7371B6F1F9C007C86C3 /* NSDate+MGMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 0002C7361B6F1F9C007C86C3 /* NSDate+MGMethods.m */; };
 		00105B211B3DD7DF0051D19A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00105B201B3DD7DF0051D19A /* main.m */; };
 		00105B241B3DD7DF0051D19A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00105B231B3DD7DF0051D19A /* AppDelegate.m */; };
 		00105B2A1B3DD7DF0051D19A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00105B281B3DD7DF0051D19A /* Main.storyboard */; };
 		00105B2C1B3DD7DF0051D19A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00105B2B1B3DD7DF0051D19A /* Images.xcassets */; };
 		00105B2F1B3DD7DF0051D19A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00105B2D1B3DD7DF0051D19A /* LaunchScreen.xib */; };
 		00105B3B1B3DD7DF0051D19A /* just_doTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00105B3A1B3DD7DF0051D19A /* just_doTests.m */; };
+		0045C9E21B703E0300BDEC19 /* MGCoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0045C9E11B703E0300BDEC19 /* MGCoreDataManager.m */; };
 		00B41CC21B5AFFC200999B79 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00B41CBF1B5AFFC200999B79 /* Default-568h@2x.png */; };
 		00B41CC31B5AFFC200999B79 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 00B41CC01B5AFFC200999B79 /* Default.png */; };
 		00B41CC41B5AFFC200999B79 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00B41CC11B5AFFC200999B79 /* Default@2x.png */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0002C7351B6F1F9C007C86C3 /* NSDate+MGMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+MGMethods.h"; sourceTree = "<group>"; };
+		0002C7361B6F1F9C007C86C3 /* NSDate+MGMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+MGMethods.m"; sourceTree = "<group>"; };
 		00105B1B1B3DD7DF0051D19A /* just.do.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = just.do.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00105B1F1B3DD7DF0051D19A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00105B201B3DD7DF0051D19A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -46,6 +50,8 @@
 		00105B341B3DD7DF0051D19A /* just.doTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = just.doTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00105B391B3DD7DF0051D19A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00105B3A1B3DD7DF0051D19A /* just_doTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = just_doTests.m; sourceTree = "<group>"; };
+		0045C9E01B703E0300BDEC19 /* MGCoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGCoreDataManager.h; sourceTree = "<group>"; };
+		0045C9E11B703E0300BDEC19 /* MGCoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGCoreDataManager.m; sourceTree = "<group>"; };
 		00B41CBF1B5AFFC200999B79 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../../MCSwipeTableViewCell/MCSwipe Demo/MCSwipe Demo/Default-568h@2x.png"; sourceTree = "<group>"; };
 		00B41CC01B5AFFC200999B79 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = "../../MCSwipeTableViewCell/MCSwipe Demo/MCSwipe Demo/Default.png"; sourceTree = "<group>"; };
 		00B41CC11B5AFFC200999B79 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../../MCSwipeTableViewCell/MCSwipe Demo/MCSwipe Demo/Default@2x.png"; sourceTree = "<group>"; };
@@ -164,6 +170,10 @@
 				00C04E431B56BBBE00231E0E /* MGTask.m */,
 				00C04E471B56E3E900231E0E /* MGTaskList.h */,
 				00C04E481B56E3E900231E0E /* MGTaskList.m */,
+				0002C7351B6F1F9C007C86C3 /* NSDate+MGMethods.h */,
+				0002C7361B6F1F9C007C86C3 /* NSDate+MGMethods.m */,
+				0045C9E01B703E0300BDEC19 /* MGCoreDataManager.h */,
+				0045C9E11B703E0300BDEC19 /* MGCoreDataManager.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -328,6 +338,8 @@
 				00105B241B3DD7DF0051D19A /* AppDelegate.m in Sources */,
 				00105B211B3DD7DF0051D19A /* main.m in Sources */,
 				00C04E491B56E3E900231E0E /* MGTaskList.m in Sources */,
+				0002C7371B6F1F9C007C86C3 /* NSDate+MGMethods.m in Sources */,
+				0045C9E21B703E0300BDEC19 /* MGCoreDataManager.m in Sources */,
 				00C04E411B56BB4100231E0E /* MGTaskListViewController.m in Sources */,
 				00C04E441B56BBBE00231E0E /* MGTask.m in Sources */,
 			);
